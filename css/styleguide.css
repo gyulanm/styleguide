@@ -61,9 +61,9 @@ section {
 }
 
 .banner__logo {
-    font-family: 'Gropled';
-    font-weight: 700;
-    font-size: 240px;
+    font-size: 228px;
+    font-family: Raleway;
+    font-weight: 600;
     line-height: 53px;
     color: var(--col-white);
     text-transform: uppercase;
@@ -76,11 +76,13 @@ section {
     align-items: center;
     margin-top: 63px;
 }
-.logobackground{
+
+.logobackground {
     background: url(./../img/styleguide/enterbg.png) center center no-repeat;
     width: max-content;
     padding: 74px 74px 80px 81px;
 }
+
 .logo__img {
     background-color: var(--col-blued);
     width: 323px;
@@ -90,6 +92,7 @@ section {
     box-sizing: border-box;
     border-radius: 60px;
 }
+
 .banner__label {
     margin-top: 100px;
     background: #7798FD;
@@ -118,6 +121,7 @@ section {
 .concept__text {
     color: var(--col-white);
 }
+
 .concept__text--margin {
     margin-bottom: 297px;
 }
@@ -149,34 +153,41 @@ section {
 .concept__list-item {
     list-style: auto;
 }
+
 .entersticker {
     top: 100px;
     right: 225px;
     position: absolute;
 }
+
 .listensticker {
     top: 350px;
     right: 100px;
     position: absolute;
 }
+
 .oksticker {
     bottom: 350px;
     right: 337px;
     position: absolute;
 }
+
 .heartsticker {
     bottom: 259px;
     right: 161px;
     position: absolute;
 }
+
 .programmsticker {
     bottom: 64px;
     right: 239px;
     position: absolute;
 }
+
 .naming {
     padding-top: 408px;
 }
+
 .naiming__title {
     color: var(--col-white);
 }
@@ -196,6 +207,7 @@ section {
     margin-block: 30px;
     height: 140px
 }
+
 .bg--background {
     background-image: url("../img/styleguide/background.png");
 }
@@ -348,28 +360,34 @@ section {
 .photos .h5 {
     margin-block: 300px;
 }
+
 .row-photo {
     display: grid;
     grid-template-columns: 634px 831px;
     grid-template-rows: 630px 184px 466px;
     gap: 29px;
 }
+
 .hsedesign {
     grid-row-start: 1;
     grid-row-end: 3;
 }
+
 .team {
     grid-row-end: 2;
     grid-row-start: 1;
 }
+
 .girl {
     grid-row-start: 3;
     grid-row-end: 4;
 }
+
 .schoolgirl {
     grid-row-start: 2;
     grid-row-end: 4;
 }
+
 .colors-row {
     display: flex;
     flex-direction: row;
@@ -419,11 +437,13 @@ section {
 .black {
     background-color: #30292A;
 }
+
 .bg--texture {
     background-image: url("../img/styleguide/texture__back.png");
     background-position: bottom;
     padding-block: 208px 459px;
 }
+
 .graphics__woman {
     margin-left: 150px;
 }
